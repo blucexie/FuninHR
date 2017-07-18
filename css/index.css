@@ -1,0 +1,290 @@
+#header{
+    position: relative;
+   /* height: 822px;
+    background: url("../images/header-bg.png")no-repeat;
+    background-size: 100%;*/
+}
+#header>img{
+    width: 100%;
+}
+#nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#nav ul{
+    display: inline-block;
+}
+#logo{
+    float: left;
+    margin-left: 13%;
+    margin-top: 54px;
+}
+#nav ul{
+  float: right;
+    height: 158px;
+    line-height: 158px;
+    margin-right: 12%;
+}
+#nav ul li{
+    float: left;
+    margin-right: 96px;
+}
+#nav ul li:nth-of-type(3) a{
+    color: #1b8dff;
+}
+
+#nav ul li a{
+    font-size: 18px;
+    color: #000;
+}
+#nav ul li a:hover{
+    color: #1b8dff;
+}
+#header .describe{
+    position: absolute;
+    left: 14%;
+    top: 50%;
+
+}
+#header .describe p{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+#header .describe a{
+    display: inline-block;
+    width: 168px;
+    height: 48px;
+    line-height: 48px;
+
+}
+#header .describe a img{
+    vertical-align: -6px;
+    margin-left: 24px;
+}
+
+#header .describe .apple{
+    background: #fff;
+    margin-left: 168px;
+}
+#header .describe .apple span{
+    font-size: 22px;
+    color: #666;
+    margin-left: 5px;
+}
+#header .describe .android{
+    width: 164px;
+    height: 44px;
+    border: 2px solid #fff;
+    vertical-align: -2px;
+    margin-left: 34px;
+
+}
+#header .describe .android span{
+    font-size: 22px;
+    color: #fff;
+    margin-left: 5px;
+}
+/*content*/
+#content{
+    margin-top: -4px;
+}
+#content .column{
+    height: 142px;
+    background: #1b8dff;
+}
+#content .column h2{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 400;
+   padding: 10px 0;
+}
+#content .column p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+/*content 1*/
+#content .empower{
+    height:648px;
+    background: #fff;
+}
+#content .empower .empowerP{
+    display: inline-block;
+    margin-left: 368px;
+    margin-top: 80px;
+}
+#content .empower .sidebar{
+    display: none;
+   float: right;
+    margin-right: 22%;
+    margin-top: 12%;
+   /*margin-right: 382px;
+    margin-top: 242px;*/
+}
+#content .empower .sidebar img{
+    margin-left: 392px;
+}
+#content .empower .sidebar h3{
+    font-size: 40px;
+    font-weight: 400;
+    color: #333;
+    text-align: right;
+    margin: 16px 0;
+}
+#content .empower .sidebar p{
+    font-size: 24px;
+    color: #666;
+    text-align: right;
+    line-height: 1.5;
+}
+
+/*content 2*/
+#content .checkout{
+    height:648px;
+    background: #eff3f3;
+    overflow: hidden;
+}
+#content .checkout .checkoutP{
+    display: inline-block;
+    margin-top: 73px;
+  /*  margin-left: 360px;*/
+    margin-left: 16%;
+}
+#content .checkout .sidebar{
+    opacity: 0;
+    float: left;
+    margin-left:14% ;
+    margin-top:10% ;
+   /* margin-top: -238px;
+    animation:leftMove 1s;*/
+}
+/*@keyframes leftMove {
+    from{ margin-top: -238px;}
+    to{ margin-top: 10%}
+}*/
+#content .checkout .sidebar h3{
+    font-size: 40px;
+    font-weight: 400;
+    color: #333;
+    text-align: left;
+    margin: 16px 0;
+}
+#content .checkout .sidebar p{
+    font-size: 24px;
+    color: #666;
+    text-align: left;
+    line-height: 1.5;
+}
+/*content 3*/
+#content .orderInterview{
+    position: relative;
+}
+#content .orderInterview>img{
+    width: 100%;
+}
+#content .orderInterview .topSidebar{
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    margin-left: -175px;
+    top: 30px;
+    text-align: center;
+}
+
+#content .orderInterview .topSidebar h3{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+}
+#content .orderInterview .topSidebar p{
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+/*content 4*/
+#content .evaluatingResult{
+    height: 265px;
+    line-height: 265px;
+    background: #fff;
+    position: relative;
+}
+#content .evaluatingResult>img{
+    vertical-align: middle;
+}
+#content .evaluatingResult .num4{
+    margin: 0 100px 0 320px;
+}
+#content .evaluatingResult div{
+    display: inline-block;
+    height: 160px;
+    margin-left: 72px;
+    position: absolute;
+    top: 40px;
+
+}
+#content .evaluatingResult div h3{
+    font-size: 40px;
+    font-weight: 400;
+    color: #333;
+    text-align: left;
+    line-height: 1.1;
+    margin: 16px 0;
+}
+#content .evaluatingResult div p{
+    line-height: 1.5;
+    font-size: 24px;
+    color: #666;
+    text-align: left;
+
+}
+/*footer*/
+#footer{
+    height: 100px;
+    line-height: 100px;
+    background: #1b1e20;
+}
+#footer p{
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+}
+
+@media all and (max-width:1800px){
+    #content .empower .sidebar{
+        margin-right: 10%;
+    }
+    .zy-Slide {
+        top: 110px !important;
+    }
+    .zy-Slide li img{
+        width:85% !important;
+        height:85% !important;
+        vertical-align:middle !important;
+    }
+    .zy-Slide li{
+        background: none !important;
+    }
+    .zy-Slide section:nth-child(2){
+        right:-188px !important;
+    }
+    .zy-Slide li{
+        box-shadow: none !important;
+    }
+}
+@media all and (max-width: 1300px){
+    #content .empower .sidebar{
+        margin-right: 10%;
+    }
+}
+@media all and (max-width: 1400px){
+    #header .describe{
+        left: 11%;
+    }
+}
