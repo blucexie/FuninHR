@@ -4,7 +4,7 @@
     width:754px;
     height:684px;
     margin:115px auto 0;
-    top: 150px;
+    top: 320px;
     left: 50%;
     margin-left: -460px;
 }
@@ -47,10 +47,10 @@
     line-height: 80px;
 }
 .zy-Slide section:nth-child(1){
-    left:-60px;
+    left:-150px;
 }
 .zy-Slide section:nth-child(2){
-    right:-230px;
+    right:-320px;
 }
 /*
 .zy-Slide section{ color: #FFFFFF; border-width: 1px; border-style: solid; }*/

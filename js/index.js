@@ -21,9 +21,14 @@ jQuery(window).scroll(function (){
     var clientH = jQuery(window).height();
     var scrollH = jQuery(window).scrollTop();
     var checkoutT = jQuery('.checkout').offset().top;
+    var attestationT = jQuery('#attestation>img').offset().top;
     var orderInterviewT = jQuery('.orderInterview').offset().top;
-    if(clientH+scrollH>=checkoutT){
+    if(clientH+scrollH>=checkoutT-100){
         jQuery('#content .empower .sidebar').slideDown(1000)
+    }
+
+    if(clientH+scrollH>attestationT){
+        jQuery('#attestation .title1').slideDown(1000);
     }
     if(clientH+scrollH>=orderInterviewT){
 
